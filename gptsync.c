@@ -63,7 +63,7 @@ int xtoi(const char* xs, UINT8* result)
 		fact = 1;
 		
 		// Run until no more character to convert
-		for(i=szlen-1; i>=0 ;i--)
+		for(size_t i = szlen - 1; i != (size_t)-1; i--)
 		{
 			if (isxdigit(*(xs+i)))
 			{
