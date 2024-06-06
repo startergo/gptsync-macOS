@@ -51,7 +51,7 @@
 int xtoi(const char* xs, UINT8* result)
 {
 	size_t szlen = strlen(xs);
-	int i, xv, fact;
+	int xv, fact;
 	
 	if (szlen > 0)
 	{
